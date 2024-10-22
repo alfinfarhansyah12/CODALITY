@@ -30,7 +30,7 @@ Dapatkan loyalitas konsumen, berikan mereka pengalaman yang berkesan dengan menc
 
 <p align='Left' valign='top'>
     <span>
-        <img src='https://github.com/DanyAdhi/Company-Profile-Laravel/blob/master/ScreenShot/user-home.jpg'  width=400 />
+        <img src='https://github.com/DanyAdhi/Company-Profile-Laravel/blob/master/ScreenShot/user-home.jpg](https://github.com/alfinfarhansyah12/CODALITY/blob/main/screenshoot/code1.png'  width=400 />
         <img src='https://github.com/DanyAdhi/Company-Profile-Laravel/blob/master/ScreenShot/user-articles.png'  width=400 />
     </span>
 </p>
