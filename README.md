@@ -1,4 +1,4 @@
-# Codality
+# Codality | Company Profile
 
 # Tentang Codality
 "Codality adalah perusahaan pengembangan
