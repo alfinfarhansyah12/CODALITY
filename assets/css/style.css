@@ -104,7 +104,6 @@ h6 {
   height: auto;
   text-align: center;
   justify-content: center;
-
 }
 
 button#close {
@@ -122,7 +121,6 @@ button#close:hover {
   background-color: #0011ff;
   color: #ffffff;
 }
-
 
 @keyframes fadeDown {
   from {
@@ -241,7 +239,8 @@ button#close:hover {
 .back-to-wa:hover {
   color: #82ffc9;
   transform: scale(1.1);
-  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6),
+    0 0 9px 3px rgba(27, 253, 156, 0.2);
   transition: all 0.2s;
 }
 
@@ -403,7 +402,7 @@ button#close:hover {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #1100ff;
 }
 
@@ -440,11 +439,11 @@ button#close:hover {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #1100ff;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -456,7 +455,7 @@ button#close:hover {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -468,7 +467,7 @@ button#close:hover {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -537,7 +536,7 @@ button#close:hover {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #1100ff;
 }
 
@@ -572,11 +571,11 @@ button#close:hover {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #1100ff;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -832,11 +831,11 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #6c757d;
@@ -894,7 +893,7 @@ section {
   padding: 0;
 }
 
-.tentang .content ul li+li {
+.tentang .content ul li + li {
   margin-top: 15px;
 }
 
@@ -925,7 +924,6 @@ section {
 }
 
 @media (max-width: 1024px) {
-
   .tentang .content,
   .tentang .accordion-list {
     padding-left: 0;
@@ -1113,7 +1111,6 @@ section {
     max-width: 80%;
     margin: 0 auto 30px auto;
   }
-
 }
 
 @media (max-width: 420px) {
@@ -1143,7 +1140,6 @@ section {
   bottom: 0;
   background: rgba(255, 255, 255, 0.8);
   z-index: 9;
-  ;
 }
 
 .team .container {
@@ -1293,7 +1289,6 @@ section {
   margin-right: 0;
 }
 
-
 .pricing .box:hover {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
@@ -1328,7 +1323,6 @@ section {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-
 
 .pricing .price {
   font-size: 36px;
@@ -1411,7 +1405,6 @@ section {
 }
 
 @media (max-width: 992px) {
-
   #countdown {
     max-width: 500px;
   }
@@ -1434,7 +1427,6 @@ section {
     width: 330px;
     height: 1px;
   }
-
 }
 
 /*--------------------------------------------------------------
@@ -1686,7 +1678,7 @@ section {
   padding: 10px 12px;
 }
 
-.kontak .php-email-form button[type=submit] {
+.kontak .php-email-form button[type="submit"] {
   background: #1100ff;
   border: 0;
   padding: 10px 24px;
@@ -1695,7 +1687,7 @@ section {
   border-radius: 50px;
 }
 
-.kontak .php-email-form button[type=submit]:hover {
+.kontak .php-email-form button[type="submit"]:hover {
   background: #4c4c50;
 }
 
@@ -1860,5 +1852,4 @@ section {
     text-align: center;
     float: none;
   }
-
 }
